@@ -1,0 +1,69 @@
+-----------------------------------------------------------------------------
+				tcp/ip
+-----------------------------------------------------------------------------
+protocolos de transmiçao entre computadores em rede 
+protocolo de internet
+-----------------------------------------------------------------------------
+				camadas
+-----------------------------------------------------------------------------
+1-fisica -> placa de rede- wireless
+2-rede -> IP
+3-Transporte -> Tcp ou udp
+4- aplicaçao -> ftp/smtp/http
+
+
+----------udp----------
+.rapido
+.nao confiavel
+.carro do ovo
+.liveStream
+----------tcp----------
+.voltado a conexao
+.handshake
+.integridade, ordem dos dados
+.aplicativos de mensagens de textos
+
+-----------------------------------------------------------------------------
+				portas(ports:porto)
+-----------------------------------------------------------------------------
+.20-ftp
+.22-ssh-> conexao segura
+.25-smtp-> emails
+.53-dns-> dns
+.80-http-> requisiçao simples
+.443-https-> segura
+-----------------------------------------------------------------------------
+				Modem
+-----------------------------------------------------------------------------
+
+.modulator-demodulator
+.hardware que converte dados em um formato que possa ser transmitido
+
+
+-------roteador--------
+.distribui internet 
+.comunica entre redes
+
+
+--------Switch---------
+.distribui so pra quem requisitou
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

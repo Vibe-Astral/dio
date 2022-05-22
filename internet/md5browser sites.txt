@@ -1,0 +1,37 @@
+-----------------------------------------------------------------------------
+				browser
+-----------------------------------------------------------------------------
+.navegador -> interpreta as linguagens de programaçao 
+.indentifica conteudo multimidias
+
+------pagina estatica X dinamica--------------------
+
+estatica -> como se fosse uma foto
+dinamica -> interaçao 
+
+-----------------------------------------------------------------------------
+			Site apps
+-----------------------------------------------------------------------------
+
+pagina da internet-> diversos propositos
+diversas lp
+
+--------------app---------------
+software executado no navegador
+
+------------E-commerce---------
+Comercio eletronico
+
+-------------Web-Server--------
+
+estatico:Fisico
+Dinamico: Software presente no server fisico
+.file server(arquivos)
+.aplication server(aplicaçoes)
+.database(banco de dados)
+
+-----web-service------------
+interface disponivel para fazer requisiçoes e consultas 
+de dados inacessiveis
+
+
