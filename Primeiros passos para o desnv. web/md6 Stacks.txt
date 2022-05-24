@@ -1,0 +1,29 @@
+----------Stacks------------
+.Pilhas de tecnlogia ->  conjunto de softwares necessarios para 
+executar um programa
+
+.Ambiente com ferramentas disponiveis 
+
+---------importancia-----------
+
+.é preciso saber das informaçoes para saber as capacidades e 
+limitaçoes
+
+.saber os sistemas e protocolos de de comunicação
+
+
+-----Front-end-----
+.Site,software,aplicativo,webservice
+
+.interface ux/ui
+
+.logica de programaçao html,css,jquery,js/ajax,php,bootstrap
+
+-----Back-End-----
+.servidores 
+.banco de dados
+.regras de negocios
+.protocolos, mysql, java,node
+
+------Full-Stack------
+.todas as camadas

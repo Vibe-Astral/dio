@@ -1,0 +1,7 @@
+-----linguagens de programçao--------
+-que eu pretendo ver:
+.javaScript(ling.Marca:html/Style:css)
+.c
+.java
+.c#
+
