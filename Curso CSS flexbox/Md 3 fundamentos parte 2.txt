@@ -1,0 +1,13 @@
+----------Flexbox part2----------
+
+flex-item:
+
+flex-grow:  define a proporcionalidade de crescimento dos items,respeitando seus conteudos internos
+
+flex-basis: estabelece o tamanho inicial do item antes da distribuição do espaço dentro dele,usando como base o conteudo interno disposto
+
+flex shrink: estabeleçe capacidade de reduçãp ou compressão do tamanho de um item
+
+flex-order: mostra a ordem em conteudo 
+
+align-self:aplicado ao item (align-items nao definido),estabelece o alinhamento individual.

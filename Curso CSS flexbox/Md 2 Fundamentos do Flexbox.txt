@@ -1,0 +1,31 @@
+----------Flex Container----------
+
+Display: flex;-> qualquer tag
+
+flex-direction:-> trabalha com os eixos 
+
+row(linhas->)row-reverse:(linhas<-)
+collum(Colunas| )collum-reverse(colunas A)
+	      V			        | 					
+flex-wrap: nowrap -> nao permite quebra de linha
+
+flex-wrap: wrap -> permite quebra de linha
+
+flex-wrap: wrap-reverse -> permite quebra de linha direção contraria da linha 
+
+justify-content: alinhamento dentro do container e a distribuiçao de espaços entre eles 
+
+
+flex-start inicio
+
+flex-end fim
+
+center centro
+
+space-between: espaçamento iguais
+
+space-around:espaçamento do meio duas vezes maior do que o final e inicial 
+
+align-items: alinha filhos de forma a modificar o eixo vertical dentro do conteiner pai
+
+align-content

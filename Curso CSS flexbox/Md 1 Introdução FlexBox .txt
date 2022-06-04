@@ -1,0 +1,35 @@
+----------Introdução-FlexBox----------
+modelo unidimensional:
+
+flexcontainer-> Possui itens filhos-> display: flex;
+
+----------Elementos----------
+display: inicializador do container
+
+flex-direction: Direcionamneto em linhas e colunas(rou,collum);
+
+flex-wrap:quebra de linha ou nao
+
+flex-flow:
+
+justify-content: alinhar items do container
+
+align-items: alinhar de acordo com eixo
+
+align-content: alinhar as linhas
+----------------------------------------
+
+flex-item -> elementos filhos
+
+----------Elementos----------
+flex-grow: fator de crecimento
+
+flex-basis: tamanho inicial antes da distribuição
+
+flex-shrink: capacidade de redução
+
+flex: junção dos três
+
+order:distribuiçao e listagem
+
+align-self:alinhamento de item especifico
