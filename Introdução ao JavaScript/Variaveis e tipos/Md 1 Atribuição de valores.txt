@@ -1,0 +1,32 @@
+----------Variaveis----------
+
+----------Boas Praticas----------
+Camel Case = variavelBacanaBacana;
+Snake case = variavel_bacana_bacana;
+kebab case = variavel-bacana-bacana;
+pascal case = VariavelBacanaBacana;
+Upper case snake Case= VARIAVEL_BACANA_BACANA;
+
+----------variaveis----------
+
+var: escopo de bloco ;
+let: escopo de bloco=local;
+const: Constante imutavel;
+
+
+.hoisting
+
+----------const---------------
+
+declaradas como Upper case snake Case
+valor imutavel, não pode redeclara.
+
+
+-----------------------------------------
+	   |      Var      |Const|  Let |
+-----------------------------------------
+|escopo	   |Global ou local|Bloco| Bloco|    
+|Redeclarar|sim	           | não | não	|	
+|Reatribuir|sim		   | não | sim	|
+|Hoisting  |sim		   | não | não  |
+-----------------------------------------

@@ -1,0 +1,24 @@
+-----------Javascript-----------
+
+-----------Caracteristicas:-----------
+
+.linguagem interpretada;
+
+.baseada em prototipos -> Conjuntos de funçoes e possibilidades incomum;
+
+.multiparadigma;
+
+.Usada em aplicaçoes web client-side;
+
+.segue o padrão ECMAScript;
+
+----------Aplicações----------
+.web
+.mobile
+.smartwatches
+.games
+.internet of things
+.APIs
+
+---------- ----------
+

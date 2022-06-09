@@ -1,0 +1,15 @@
+----------Javascript-em-pageweb----------
+
+.estruturado projeto:
+- index.html:
+- assets-> css,imgs,js
+
+----------Inserindo-Scripts----------
+Atraves dos <link rel="" href="">
+	    <script link=""> </script>
+----------Document-object-model----------
+
+estruturas dos elementos dentro da janela:
+	[--history
+window--[--location
+	[--document

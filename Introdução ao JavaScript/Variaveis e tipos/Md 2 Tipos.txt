@@ -1,0 +1,63 @@
+----------Estruturas-de-dados----------
+
+javascript: Tipagem Dinamica e fraca.
+
+-não precisa definir o tipo antes do valor
+
+tipos:
+---------------------------------------
+Dados primitivos
+      
+Numbers: let num = 10
+------------------------------
+string: 
+var nome="João"
+var sobrenome ="augusto"
+var concatenando=nome.concat(sobrenome)
+var texto ="Texto declarado"
+var templateString=`${nome}+${sobrenome}`
+--------------------
+boolean:true||false
+--------------------
+null
+undefined
+---------------------------------------
+não primitivos
+
+objects
+
+let person = {
+keys -> name: 'jor',<- value
+age: 20,
+};
+----------------------------------------
+arrays:Lista iteravel de elementos
+let array = []
+let array= new array
+array.push():adicionando
+array.pop():tirando final
+array.shift:tira primeiro
+unshift():adiciona no inicio
+----------------------------------------
+
+Palidromo:frase ou palvra que se lida de frente pra tras tera o mesmo significado
+
+split("")separaletras
+join("")
+
+function verificaPalindromo(string){
+	
+	if(!string) return;
+	
+	return string.split("").reverse().join("")===string;
+}
+
+---------------------------------------------
+
+
+
+
+
+
+
+

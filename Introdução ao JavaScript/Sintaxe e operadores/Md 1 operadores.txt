@@ -1,0 +1,35 @@
+----------Operadores----------
+
+.tipos de operadores-> sinais
+
+.Atribuição:
+.=
+.+=
+.*=
+./=
+.%=
+
+.Aritimetica;
+.+
+.-
+.*
+.**
+./
+.%
+.++
+.--
+
+.comparação:
+.==: iguais significados 2 == "dois" = true
+.===: mesmo tipo 2===2 = true
+.!= 
+.> 
+.< 
+.>= 
+.<=
+
+.logicos:
+
+.&& e
+.|| ou 
+.! não

@@ -1,0 +1,15 @@
+----------Frameworks-e-bibliotecas----------
+
+.Vue.js
+.Angular
+.React
+.jquery
+
+----------Mercado-de-trabalho----------
+
+.mdn web docs
+.w3c
+.stackoverflow
+.youtube
+.github
+.dio

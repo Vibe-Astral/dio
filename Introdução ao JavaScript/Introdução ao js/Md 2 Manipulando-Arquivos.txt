@@ -1,0 +1,32 @@
+----------Manipulando-Arquivos----------
+
+//Comentario de linha 
+
+/*
+Comentario de varias linha
+*/
+
+Declarando variaveis
+
+
+----------Funções----------
+
+function ex(/*Parametros*/){
+
+
+}
+
+function soma(a,b){
+
+	console.log(a + b);//3
+	return a + b;
+}
+//soma(1+2); 
+
+----------Console----------
+
+.pagina da web f12
+
+.terminal-passos->ls->cd(diretorio)-> procurar o .js
+
+
