@@ -1,0 +1,29 @@
+----------Tipos-de-Função----------
+
+Estrutura:
+
+funtion nome(Parametros){
+
+	<Codigo>
+	return; //para a função
+}
+
+função anonima: variaveis armazenam funções
+
+const soma = function(a,b){
+	return a+b;
+}
+soma(1,2)//3
+
+Função autoinvocavel iife(immediately invoked function expression)
+
+{
+	function(){
+
+	let name = "Dio"
+	return name;
+  }
+}();
+
+Callbacks: funçao como argumento para outro função
+ 

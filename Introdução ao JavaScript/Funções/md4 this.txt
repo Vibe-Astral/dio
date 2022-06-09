@@ -1,0 +1,16 @@
+----------this----------
+
+Referencia pro contexto: this se refere ao objeto
+
+manipulando valor de this:
+
+.call()=troca o valor de this 
+.call(peassoa)
+.call(animall)
+
+.aplly()=e possivel passar parametros pra  essa função dentro de um array 
+
+.aplly(pessoa)
+.aplly(animal)
+
+Bind=clona a estrutura da função 

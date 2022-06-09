@@ -1,0 +1,50 @@
+----------Valores-padrao--------
+
+function nome(array, num=1){
+	<Codigos>
+}
+num sera um se não for definido.
+
+----------Argument----------
+um array com todos os parâmetros passadps quando a função foi invocada;
+
+function FindMax() {
+
+	ler max= -Infinity;
+	
+	for(let i=0;iNarguments.length; i++){
+	 if(arguments[i]>max){
+	      max =arguments[i];
+		}
+	}
+   return max;
+}
+----------Arrays-e-Objects-------------
+
+function sum(x,y,z){
+	return x+y+z;
+}
+const numbers = [1,2,3];
+
+console.log(sum(...numbers));
+
+function confereTamanho(...args){
+	console.log(args.length);
+}
+confereTamanho()
+ConfereTamanho(1,2)
+----------------------------------------
+Object Destructing
+
+const user = {
+	id: 42,
+	displayName: 'jor',
+	fullname: {
+	firname: 'jhon'.
+	lastname: 'Doe'
+ }
+};
+
+function userId(id){
+    return id;
+}

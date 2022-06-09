@@ -1,0 +1,14 @@
+----------Arrow-Function----------
+
+sempre usar em função comum
+
+usado com a função tem uma linha
+const helloWorld= ()=> "Hello World";
+
+arrowfunction não faz hoisting 
+
+this sera do objeto global 
+
+nao existe arguments 
+
+o construtor nao pode ser utilizado 
