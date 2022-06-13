@@ -1,0 +1,12 @@
+----------Tipos de erros----------
+
+objeto error: ecmascript
+
+composto por:
+-Ocorre em tempo de execução
+-mensagem
+-nome
+-linha
+-callstack
+
+DomException:  erros relacinados o dom

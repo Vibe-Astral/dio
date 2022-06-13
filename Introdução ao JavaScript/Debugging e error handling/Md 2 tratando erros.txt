@@ -1,0 +1,31 @@
+-----tratamento-de-erros-----
+
+return:ex.:
+function verificaPalindromo(string){
+	if(!string)return"String invalida"//retorna como string mesmo
+}
+
+
+
+throw:ex.:
+function verificaPalindromo(string){
+	if(!string)throw"String invalida"//retorna como erro
+}
+
+try/cacth:ex.:
+
+function varificaPalindromo(string){
+ if(!string)throw "String invalida"
+	return string === string.split('').reverse().join('');{
+	}
+}
+
+function tryCatchExemplo(string){
+try{
+ verificaPalindromo(string)
+}
+catch(e){
+console.log(e)
+}
+}
+tryCatchexemplo('');
