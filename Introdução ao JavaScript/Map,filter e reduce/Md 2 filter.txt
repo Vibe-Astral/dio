@@ -1,0 +1,13 @@
+----------filter----------
+
+cria um novo array 
+nao modifica o original
+
+array.filter(callback, thisarg)
+
+ex.:
+const frutas = ['pessêgo','maçã','pêra','uva roxa','uva verde'];
+
+frutas.filter((fruta)=>fruta.includes('uva'))
+
+// retorno: ['uva roxa ','uva verde'];

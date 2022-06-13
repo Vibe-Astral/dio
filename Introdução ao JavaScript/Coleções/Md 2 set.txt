@@ -1,0 +1,23 @@
+--------------------set--------------------
+
+estruturas que armazenam apenas valores unicos
+
+const myArray= [1,1,2,2,3,4,5,6,7,8,2,1];
+const mySet = new Set(myArray);
+set(8)
+--------------------
+mySet.add(1);
+mySet.add(5);
+
+mySet.has(1);
+//true
+
+mySet.has(3);
+//false
+
+mySet.delete(5);
+--------------------
+--------------------Set vs Array--------------------
+-possui valores unicos
+-em vez da propriedade length utiliza size
+-não possui metodos, map,filter,reduce,etc...

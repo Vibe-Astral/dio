@@ -1,0 +1,18 @@
+--------------------Map--------------------
+
+Estrutura:
+const myMap = new Map()
+
+Métodos
+
+.set(Valor,chave);:Metodo de input
+.get(valor);: checando
+.delete(valor);deletando
+
+----------map vs objeto----------
+map:
+-chaves de qualquer tipo;
+-maps possuem propriedade length;
+-maps são mais faceis de iterar;
+-utilizado quando o valor das chaves é desconhecido;
+-os valores tem mesmo tipo;
