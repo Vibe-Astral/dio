@@ -1,0 +1,21 @@
+----------Assincronicidade-----
+
+Assincrono: que não ocorre ou não se efetiva ao mesmo tempo
+
+js roda de maneira sincrona: umacoisade cada vez
+
+promises:objeto de processamento assincrono
+
+inicialmente,seu valor é desconhecido.ela pode então ser resolvido ou rejeitado
+
+estados:
+pending 
+fulfilled 
+rejected
+
+Const myPromisse = new promisse{(resolve,reject) => { window.setTimeout((=>{
+	resolve(console.log('resolvida'));},2000);
+});
+
+Async:Função assincrona
+await: fazer a espera do codigo pra resolução da promisse

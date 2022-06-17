@@ -1,0 +1,10 @@
+----------Document object model----------
+
+O DOm Html é um padrão de como acessar e modificar os elementos html dentro de uma pagina 
+
+BOM: Browser object model
+		  |
+		  V
+		window		
+document history location screen navigator
+

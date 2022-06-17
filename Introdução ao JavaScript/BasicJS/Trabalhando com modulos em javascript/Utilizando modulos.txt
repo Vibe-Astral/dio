@@ -1,0 +1,50 @@
+----------Modulos----------
+
+o que são: arquivos em js com capacidade de exportar e importar outros arquivos do mesmo tipo
+
+exportam->counter.js e displays.js->importa->mainjs
+
+-vantagens
+organização
+-explicita as adependencias
+-compartilhamento de variaveis em escopo diferentes
+
+
+
+exportar: 
+
+export function teste(tes){
+}
+ou
+
+export{
+function teste(tes)
+} 
+
+importar
+
+impor{finção variavel,classe}
+ from './arquivo.js' ;
+
+ou
+
+import valorDefault from './arquivo.js';
+
+ou
+import {arquivo as apelido} from './arquivo.js';
+
+ou
+import * as APELIDO from './arquivo.js';
+
+
+
+vinculando ao html
+
+<script type="module" src="./main.js"> </script>
+
+
+
+Modulos sempre estão em "strict mode";
+-podem ser utilizados em .js e .mjs
+-para testes locais precisa do servidor
+-para importar usar ./

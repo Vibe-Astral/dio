@@ -1,0 +1,27 @@
+----------Eventos----------
+
+Iteração do usuario com a pagina
+
+tipos:
+eventos de mouse:
+mouseover,mouseout
+click,dbclick
+
+eventos de atualização:
+Change,load
+
+Event listener
+
+const botao = document.getElementByid("meubotão");
+
+botao.addEventListener("click")
+
+Dentro do html:
+
+<h1>onclik="mudatexto(this)">Clique</h1>
+
+<script>
+function mudatexto(id){
+id.innerHTML="mudou!"
+}
+</script>

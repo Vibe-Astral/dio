@@ -1,0 +1,14 @@
+----------Estilos-js----------
+
+const newElemento = document.getElementByid("meu-elemento")
+
+meuElemento.classList.add("novo-estilo");
+
+meuElemento.classList.remove("classe")
+
+meuElemento.classList.toggle("dark-mode")
+
+
+document.getElementByTagName("p").style.color="blue";
+
+

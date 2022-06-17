@@ -1,0 +1,13 @@
+----------APIs----------
+
+o que são: application programing interface
+
+uma API é uma forma de intermediar os resultados do back-end com o que é apresentado no front-end
+
+json: javascript object notation
+
+fetch: JsAssincrono
+
+fetch(url, options)
+	.then(response => response.jason())
+	.then(json => console.log(json))

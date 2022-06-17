@@ -1,0 +1,8 @@
+----------O-O-JS----------
+
+Prototipos: esqueleto de todos os objetos
+
+Syntatic sugar: facilitador de sintaxe
+
+classes: a partit do ecmascript6 = parecido com java
+

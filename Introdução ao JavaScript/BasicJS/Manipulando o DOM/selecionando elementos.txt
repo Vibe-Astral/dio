@@ -1,0 +1,23 @@
+----------Métodos----------
+
+---tag---
+Atributos:
+-. Classe
+-# id
+
+document.getElementById('test');
+document.getElementByTagName('h1');
+document.getElementByClassName('teste')
+
+document.querrySelectorAll('.classe',"#id")
+
+Adicionar e deletar elementos
+
+document.createElement(Element)
+cria um novo elemento
+document.removeChild(Element)
+remove elemento
+document.appendChild(Element)
+adciona um elemento
+document.replaceChild(New,Old)
+Substitui

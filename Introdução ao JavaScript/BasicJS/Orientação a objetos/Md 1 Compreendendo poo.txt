@@ -1,0 +1,18 @@
+----------paradigmas----------
+
+imperativo: como se resolve?
+
+declarativo: o que voce bvai fazer?(banco de dados);
+
+Programas são objetos que possuem varias propriedades
+
+Pilares:
+
+-Abstração:simplificar e generalizar a complexidade
+
+-herança: objetos filho herda as propriedades dos pai
+
+-encapsulament: cada classe tem sua propriedade e metodos independentes 
+
+-polimorfismo: herdam a mesma classe pai mas com caracteistics diferentes.
+
