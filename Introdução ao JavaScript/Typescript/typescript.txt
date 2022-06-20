@@ -1,1 +1,3 @@
-----------SuperSet----------
+----------TypeScript----------
+
+-SuperSet:da um encremento a mais em relação a produtividade e manutenção
