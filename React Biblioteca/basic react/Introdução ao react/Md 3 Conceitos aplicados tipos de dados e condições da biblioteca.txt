@@ -1,0 +1,82 @@
+----------------------------------------
+Conceitos aplicados:
+
+Renderização condicional: Em react se pode criar componentes distintos que encapsulam o comportamento que precisa,
+
+variaveis com elementos:
+const buttonA = <button>botão</button>
+{buttonA }
+----------------------------------------
+if inline com operador logico &&:
+
+const hasCustomer = true// aparece
+
+
+
+<div>
+      <p>batata</p>
+      {hasCustomer && (
+        <div>
+          clique
+          <br />
+          {buttonA}
+        </div>
+     	)}
+ </div>
+----------------------------------------
+if-else inline com operador condicional:
+
+const hasCustomer = true
+
+const App = () => {
+
+  const renderCliqueb = () => {
+    <div>
+      clique
+      <br />
+      {buttonA}
+    </div>
+  }
+  const renderCliqueB = () => {
+    <div>
+          clique
+          <br />
+      {button2}
+    </div>
+  }
+
+  return (
+    <div>
+      <p>batata</p>
+      {hasCustomer ? (renderCliqueb ): (renderCliqueB)}
+    </div >
+  );
+};
+----------------------------------------
+Evitando que o componente seja renderizado
+ const pe = 'person'
+  const showpe = () =>{
+      if (!hasPerson ) return null
+      return(
+        <div>
+          <h1>pe: Person</h1>
+        </div>
+      )
+  }
+  return (
+    <div>
+      <p>batata</p>
+      {hasPerson ? (renderCliqueb ): (renderCliqueB)}
+      {showpe()}
+    </div >
+  );
+};
+---------------------------------------------
+listas e chaves
+---------------------------------------------
+manipulando eventos
+
+onClick={Passa uma função}
+---------------------------------------------
+dicas
+---------------------------------------------

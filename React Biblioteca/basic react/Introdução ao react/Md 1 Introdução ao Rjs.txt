@@ -1,0 +1,70 @@
+----------Introdução-ReactJs----------
+
+è uma biblioteca javaScript para criar intefaces de usuario
+
+criado em 2011 por jordan walke no Facebook baseado no xhp-> frameword de html no php
+
+react é baseado em components
+
+----------Config React----------
+
+React Create App
+
+React Scripts
+
+Task Runners e Bundler Sizers
+-----------------------------------
+npm init
+
+npm install --save react@16.8.6 react-dom@16.8.6 react-scripts@3.0.1
+
+----------------------------------------
+o que é jsx?
+
+estrutura html com javascript
+
+browser precisa de um transpilador 
+----------------------------------------
+Renderização de elementos
+react Dom
+Nós raiz
+
+oreact "pensa" em como a interface deve estar em cada momento ao inves de alterala com o tempo,o que faz ter ganho de performace
+ ----------------------------------------
+
+Componentes:
+Menus, botãos=
+devem ser puros
+nenhum componente pai ou filho devem saber se o outro componente possui estado ou não
+
+o estado é apenas local ao componente caso seja necessario enviar algum atributo para outro é feito via props
+
+props:parametros para cada componentes
+
+ 
+função e classe;
+props;
+composição de Componentes
+extração de componentes
+----------------------------------------
+
+Estado e Ciclo de vida
+
+inicialização
+
+Montagem 
+
+Atualização 
+
+Desmontagem
+----------------------------------------
+ecossistema:
+
+React Router
+Redux
+Material UI
+Ant-Design
+Storybook
+Gatsby
+jes
+react i18n next

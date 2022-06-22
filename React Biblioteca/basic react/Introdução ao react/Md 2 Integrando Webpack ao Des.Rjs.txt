@@ -1,0 +1,33 @@
+----------webpack----------
+
+o que é webpack: empacotador de modulo para javascript(module bundler)
+
+gerar bundler que sera utilizado no html, em es5
+
+---------Configuração---------
+
+entry: utiliza grafo, precisa de entrada para buscar todos os modulos e dependencias 
+
+outputs: determinar quais bundlers seram emitidos 
+
+loaders: permitir gerenciamento de coisas que nao sao javascript
+
+plugins: plugin podem ser utilizados para potimização de pacotes, minificaçao injeção de scripts e muito mais
+
+Mode: tipos de configuração 
+
+Production tras otimizações internar
+
+development: tras tres plugins 
+
+none
+----------comandos----------
+npm i -D webpack webpack-cli
+
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react
+------------------------------
+
+npm run start-> Configurando dev-server
+------------------------------
+
+Eslint-> npm install --save dev eslint babel-eslint eslint-plugin-react eslint-watch
