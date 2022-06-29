@@ -1,0 +1,130 @@
+------------------------------
+o que são hooks: são ganchos, função que se engancha no componente executando-a
+------------------------------
+npx create-react-app
+------------------------------
+sem hooks:
+
+function Counter() {
+  let quantidade = 1;
+  function upQuantidade(){
+    quantidade= quantidade + 1;
+    document.getElementById("counterBox").innerHTML = quantidade;
+  }
+  return (
+    <>
+      <h1 id="counterBox">{quantidade}</h1>
+      <button onClick={upQuantidade}>Aumentar</button>
+    </>
+  )
+}
+
+export default Counter
+------------------------------
+com hooks
+import {useState} from 'react';
+
+function SmartCounter(){
+
+  const [quantidade, upQuantidade] = useState(1);
+
+  return(
+    <>
+    <h1>{quantidade}</h1>
+    <button onClick={()=> upQuantidade(quantidade + 1)}>Aumentar</button>
+    </>
+  )
+}
+
+export default SmartCounter
+------------------------------
+Criando um componente prático com estado
+
+import React, {useState} from 'react'
+
+
+import '../Ifoodcounter/Ifoodcounter.css'
+
+function Ifoodcounter() {
+
+  const [value, setValue] = useState(1);
+  const [buttonStyle, setButtonStyle] = useState("counter-button-minus-active")
+  function down() {
+    if(value <= 1){
+      setButtonStyle("counter-button-minus-desactive")
+    }
+    if (value > 0) {
+      setValue(value - 1);
+    }
+  }
+  function up() {
+    setValue(value + 1);
+    setButtonStyle("counter-button-minus-active")
+  }
+
+  return (
+    <div className='countex-wrapper'>
+      <button
+        className={buttonStyle}
+        onClick={down}
+      >
+        -
+      </button>
+      <p>{value}</p>
+      <button
+        className='counter-button-plus-active'
+        onClick={up}
+      >
+        +
+      </button>
+    </div>
+  )
+}
+
+export default Ifoodcounter
+
+------------------------------
+useEffect
+
+const [value, setValue] = useState(1);
+const [buttonStyle, setButtonStyle] = useState("counter-button-minus-active")
+  
+useEffect(()=>{
+    document.getElementById("moeda").innerHtml = 2 * value;
+  },[value])
+  
+  function down() {
+    if(value <= 1){
+      setButtonStyle("counter-button-minus-desactive")
+    }
+    if (value > 0) {
+      setValue(value - 1);
+    }
+  }
+  function up() {
+    setValue(value + 1);
+    setButtonStyle("counter-button-minus-active")
+  }
+
+  return (
+    <div className='countex-wrapper'>
+      <button
+        className={buttonStyle}
+        onClick={down}
+      >
+        -
+      </button>
+      <p>{value}</p>
+      <button
+        className='counter-button-plus-active'
+        onClick={up}
+      >
+        +
+      </button>
+
+      <h1 id='moeda'>2</h1>
+    </div>
+  )
+}
+
+export default Ifoodcounter

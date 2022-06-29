@@ -1,0 +1,136 @@
+----------My-----SQL----------
+
+modelo relacional:
+surge na decada de 60: Edgar Codd
+
+As tabelas sã compostas por entidade, atributos e chaves
+
+as chaves permitem o relacionamento entre os dados 
+
+porque usar tabelas: dados organizados de forma estruturada
+
+dados atomicos: dado unico e só existe em um unico lugar
+
+consulta e manipulação de dados de forma simplificada 
+
+----------My-----SQL----------
+phpMyAdmim sistema gerenciador de dados
+
+----------criando tabela-----
+create table
+
+tipos: int,varchar, datetime
+
+
+CREATE TABLE pessoas(nome varchar(20),nascimento date)
+--------inserindo dados-------
+
+INSERT INTO
+
+INSERT INTO pessoas(nome, nascimento) VALUES ('Jorge",'2003-05-21')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

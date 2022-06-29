@@ -1,0 +1,35 @@
+------------------------------
+
+TDD:
+Test Drive Development
+antecipar erros a nivel de desenvolvimento
+teste escrito antes da funcinalidade
+não descarta a presença de um tester 
+testes unitario e e2e
+Jest
+React-testing-Library
+Shallow
+Enzyme
+Chai
+Mocha
+Selenium
+Puppeteer
+
+
+BDD:
+Behavior Driven Development
+teste de especificação 
+ une a especificação teste automatizado e premissa de teste
+sintaxe de steps
+
+------------------------------
+
+Debbuging
+
+processo de encontrar e reduzir defeitos de um software
+
+chrome devtools
+redux devtools
+react devtools 
+------------------------------
+tratamentos de erros

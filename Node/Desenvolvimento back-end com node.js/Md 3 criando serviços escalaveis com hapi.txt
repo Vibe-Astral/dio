@@ -1,0 +1,18 @@
+------------------------------
+o que é hapi?
+um framework para construir aplicações e serviços
+similar ao express.js
+software de codigo aberto
+
+permite que os desenvolvedores se concentrem em escrever logicca ao inves de pensar na arquitetura
+
+------------------------------
+funcionalidades
+
+Autenticação e autorização 
+armazenamento cache
+roteamento
+validação de schema
+cookies
+loggin
+tratamento de erros

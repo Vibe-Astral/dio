@@ -1,0 +1,21 @@
+----------Ciclo-de-vida----------
+
+inicialização 
+
+montagem
+
+atualização
+
+desmontagem
+----------Hooks----------
+
+useState
+useeffect
+useContext
+
+regras: não use hooks dentro de function js comuns
+
+em vez use:
+
+chamar hooks em componenes react
+chamar hooks dentro de hooks customizados

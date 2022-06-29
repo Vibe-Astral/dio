@@ -1,0 +1,100 @@
+----------maneiras de estilização---------- 
+
+Inline
+-> atributo style
+const divStyle{
+	color: 'blue',	
+}
+
+<div style={divStyle}>Hello<div/>
+
+prós:
+	maneira mais pratica e direta
+	ajustes rapidos
+	testes de estilos
+contra:
+	dificil manutenção
+
+Classes
+->maneira tradicional
+className="content"
+.content
+--------------------------
+Css in js
+
+npm install --save styled-components
+--------------------------
+Stateful: usa estados
+
+-> possuir gerenciamento de estados no componente 
+
+ciclo de vida->
+
+Initialization:setup props e state 
+
+mounting:
+
+componanetwillMount
+ 	|
+	V
+	Render 
+	|
+	V
+componentDidMount
+-----------------
+updation:
+
+props:
+
+componanetwillReciveProps
+
+ShouldComponentUpdate
+	|     A
+	V     |
+	true  false
+ComponentWillUpdate
+	|
+	V
+      render
+	|
+	V
+ComponentDidUpdate
+
+------------------
+States:
+
+ShouldComponentsUpdate
+	|     A
+	V     |
+	true  false
+
+ComponentWillUpdate
+	|
+	V
+	render
+	|
+	V
+ComponentDidUpdate
+------------------
+Unmounting
+	|
+	V
+ComponentWillUpdate
+------------------------
+Stateless: não usa estados
+nao possui gerencimento de estados
+
+-------------------------
+formulario react
+
+componente controlado:
+tanto select,input ou text area aceitam um atributo value
+ 
+podemos mudar esse esse valor usando o atributo onChange
+
+componente não controlado:
+A tag Input é read-only
+
+------------------------------
+Blibliotecas de forms 
+formik-ReduxfForms

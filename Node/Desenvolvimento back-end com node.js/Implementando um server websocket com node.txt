@@ -1,0 +1,34 @@
+-------------------------
+Desenvolvimento nodejs com postgresql
+
+banco de dados relacionais 
+
+Open source
+
+*tipo UUID
+*PostGIS
+*Unaccent(remove acentos)
+
+-------------------------
+utilizando node com postgresql
+
+driver de conexão pg
+
+exemplo de criação de tabela e querrys com node
+-------------------------
+ORMs o que são 
+
+biblioteca 
+
+mapeamento objeto relacional
+
+sequeliza:
+MySQL
+Sqlite
+Postgresql
+SQL server
+
+-versatil
+-robusto
+
+

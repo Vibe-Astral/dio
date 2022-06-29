@@ -1,0 +1,42 @@
+------------------------------
+Mongoose
+
+solução baseado em esquemas para modelar os dados de um aplicação 
+
+possui sistema de conversão de tipos validação criação de consultas e hooks para logicas de negocios 
+
+fornce um mapeamento de objetos do mongoDB 
+
+similar ao orm(Object Relational Mapping) conhecido como ODM(Object data mapping)
+
+traduz os dados do banco de dados para objetos javascript para serem utilizados pela aplicação 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

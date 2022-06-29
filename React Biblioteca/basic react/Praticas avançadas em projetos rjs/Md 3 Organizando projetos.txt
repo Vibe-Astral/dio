@@ -1,0 +1,19 @@
+-----Dumb Component-----
+
+preocupa-se com a apresentação 
+recebem valores via props
+não possu dependencias com o restante da aplicação
+não especificam como os dados são carregados ou sofrem mutação
+recebem valore e callbacks exclusivamente via props
+raramente possuem estado 
+são escritos na maioria da vezes como components funcionais 
+-----Smart Component-----
+
+preocupa-se como as coisas vão funcionar
+
+pode conter smart e dumbc omponent
+
+providenciam dados e padrões de 
+apresentação
+
+possuem estado e podem chamar outros fluxos do sistema

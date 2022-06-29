@@ -1,0 +1,81 @@
+------------------------------
+sql: structured query language
+
+linguagem de consulta  a banco de dados
+
+dados guardados em tabelas 
+
+
+NoSQL:Not only SQL 
+banco de dados não relacionais de alto desempenho 
+
+performace melhor e uma escalabilidade horizontal
+
+
+dados como 
+
+documentos: 
+chasves,valor(JSON)(ex.:mongoDB)
+------------------------------
+Colunas: 
+ados armazenados em linhas particulares de tabela no disco
+
+suporta varia linhas e colunas,bem como sub-colunas(ex.:Cassandra)
+------------------------------
+Grafos:dados são armazenados na forma de grafos vertices e arestas(ex.: Neo4j)
+------------------------------
+Chave e valor:
+suporta mais carga de dados
+conceito é que um determinado valor seja acessado atraves de uma chave identificadora unica (Riak)
+------------------------------
+
+NoSQL: agrupa toda informação e guarda no mesmo registro
+
+no Sql voce precisa ter o relacionamento entre varia tabelas para ter a informação 
+
+sql tem dificuldade em conciliar demanda por escalabilidade
+
+no nosql: deve se levar em consideração a modelagem do sistema 
+
+sql tem consistencia nos dados 
+
+o nosql garante o ultimoo
+------------------------------
+o que é mongoDb
+
+banco de dados orientado a documentos no formato JSON 
+mais usado no mercado 
+
+não possui como restrição a necessidade de ter as tabelas e colunas criadas previamente
+
+é possivel armazenar registros sem se preucupar com a estrutura de dados 
+
+guarda dados em documentos ao inves de tabelas
+
+documentos agrupados em collections
+um conjunt de collection forma um banco de dados 
+
+key: values
+
+{
+name:"name"
+age:12
+status:"A"
+groups:["sports","news"]
+} 
+
+
+recursos: 
+sharding usado para dividir dados de uma collection entre mais de um servidor
+
+capped collection: collection com tamanhos predefinidos e com conteudo rotativo
+
+
+
+
+
+
+
+
+
+

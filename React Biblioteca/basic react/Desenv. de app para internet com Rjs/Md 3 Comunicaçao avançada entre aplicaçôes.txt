@@ -1,0 +1,47 @@
+------------------------------
+rest APIs HTTP
+
+Servem´para conectar um ou mais servidores HTTP
+
+GET
+POST
+DELETE
+PUT
+
+fetch API:
+nativa do browser
+oferece um alternativa ao xmlhttprequest() e jQuery.ajax()
+suporte a service workes
+algumas diferenças
+nao envia nem recebe cookies precisa definir a opção credential
+não rejeita o status de erro do http
+
+Axios:
+Lib de HTTP API
+cross-browser
+pode monitorar o progresso de um request
+melhorar tratamentos de erros
+melhort teste
+
+------------------------------
+imutabilidade
+
+uma vez criada uma coleção não pode ser alterada
+
+novas coleções podem ser criada a parir de uma coleção anterior e uma mutação como um conjunto
+
+beneficios:
+performace
+preogramação simples
+debbuging mais simples(Detecção de mudanças)
+
+imutabilidade e react
+
+se quiser performace em react use dados imutaveis
+
+usando o shouldComponentUpdate ou React.PureComponent
+------------------------------
+Redux + rest
+
+
+redux middlewares: camada entre disparo de ação e o momento que ela atinge  o reducer

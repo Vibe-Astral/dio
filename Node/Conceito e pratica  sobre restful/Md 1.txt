@@ -1,0 +1,66 @@
+----------------------------------
+Introdução a API e os metodos HTTP
+
+o que é API:
+
+-Application program interface 
+-camada que esconde as regras e possibilita uma comunicação externa
+
+-facilita muito a integração
+
+-existem varias metodologia (ou arquiteturas),ex.: SOA,Rest,uso pelo SDK
+
+Rest:Metodologia arquitetura  Restful: API que usa o rest
+
+----------------------------------
+http methods
+
+Get:
+	sempre obtem os dados
+	/api/dev/user
+Post:
+	cria um novo registros ou 		recursos
+	/api/dev/user
+Put:	
+	Atualiza um registro 		existente
+	/api/dev/user/{id}
+Delete:
+	Remove um registro 		existente
+	/api/dev/user/{id}
+
+Erros Comuns:
+Get:
+	sempre obtem os dados
+	/api/dev/user/{id}
+Post:
+	cria um novo registros ou 		recursos
+	/api/dev/user/create
+Put:	
+	Atualiza um registro 			existente
+	/api/dev/user
+Delete:
+	Remove um registro 			existente
+	/api/dev/user?id=2
+----------------------------------
+status code:
+
+geralmente
+2x....=Sucesso
+4x....=Erro no cliente
+5x....=Erro server side
+
+Status comuns:
+200=o=Ok
+401=Unauthorized
+403=Forbidden
+404=Not found
+500=internal server error
+504=Gateway Timeout
+
+httpstatuses.com
+
+
+
+
+
+----------------------------------

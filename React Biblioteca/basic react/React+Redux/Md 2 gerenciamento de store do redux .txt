@@ -1,0 +1,11 @@
+-------------------------
+Developer Experience
+
+Quais são as melhores práticas: Redux style guide
+
+Ducks Pattern e High-Order-Reducers
+
+Component Containers
+Hooks everywhere
+
+Conclusão e comentários do curso

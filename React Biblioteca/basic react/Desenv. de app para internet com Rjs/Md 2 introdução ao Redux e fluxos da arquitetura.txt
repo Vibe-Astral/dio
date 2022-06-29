@@ -1,0 +1,73 @@
+-----------------------------------
+o que é flux?
+Arquitetura criada pelo facebook para comunicação entre componentes
+
+flux-> padrão para trafegos de dados unidirecional
+
+Acition:ele formata a mensagem a ser enviada
+
+dispatcher: ele sabe todos os callback para diferentes stories.
+
+store: ele guarda a informação e todas as alterações tem que ser feitas por ele mesmo, mais ninguem.
+
+view: recebe as notificações da store e passa os dados para as visões abaixo dela 
+
+-----------------------------------
+Arquitetura Flux
+varias implementações 
+
+redux
+reflux
+mobx
+vuex
+ngrx/store
+-----------------------------------
+Redux: Criado por Dan Abramov e Andrew Clark em 2015 
+
+Implementação do flux
+
+3 principios
+
+1 single source of truth uma unica store
+
+2 state read-only
+
+3 mudan~as são deitas com pure function
+
+redux:
+
+react ------
+A	   |
+|	   v
+|	  action  <-
+|	   A	
+store -----|
+| A
+V |
+reducer
+
+actions: são como o flux
+
+diferença actinos nao enviam a action para o dispatcher
+
+retornam um objeto de action formatado;
+
+store:Uma unica store
+S store aqui cuida de toda a arvore de estados os reducers cyuidam de descobrir o estado que muda 
+
+reducers: em redux não a dispatcher(simplifica e divide o trabalho da store)
+
+a store se conecta ao root reducer que os estados em pequenos reducers para descobrir como lidar com esse estado
+
+os estados aqui são imutaveis 
+
+
+views: em react adiciona na camada de view 3 novos conceitos para conectar a view a store
+
+provider
+connect()
+selector
+
+
+
+

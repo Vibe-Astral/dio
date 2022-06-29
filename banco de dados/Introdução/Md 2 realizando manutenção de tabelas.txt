@@ -1,0 +1,21 @@
+----------EDIÇÃO----------
+
+SELECT * FROM 'tabela'
+SELECT campo FROM 'tabela'
+
+UPDATE tabela SET campo ='aqui' where id=1;
+
+DELETE FROM tabela WHERE id=1
+//deletou acabou sem volta 
+
+ORDER BY 
+
+Crescente
+SELECT * FROM tabela ORDER BY campo ASC
+
+Decrescente
+SELECT * FROM tabela ORDER BY campo DESC
+
+SELECT COUNT(genero), genero FROM pessoa GROUP BY genero
+
+ALTER TABLE `pessoa` ADD `genero` VARCHAR(1) NOT NULL AFTER `nascimento`;

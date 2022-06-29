@@ -1,0 +1,23 @@
+-------------Fragment------------
+"um padrão comum no react é um componente pode retornar multiplos elementos. os fragmentos permitem agrupar uma lista de filhos sem adicionar nós exrtras ao DOM"
+----------Error-boundaries---------
+
+
+----------RenderProps----------
+
+O termo render prop se refere a uma tecnica de compartilhar codigo 
+entre componentes react passando uma prop cujo valor é uma função 
+
+um componente com uma render prop recebe uma função que retorna um elemnteo React e a invoca no momento de renderização não sendo necessario para o componente implementar uma logica propria 
+
+----Typechecking com PropTypes----
+
+react possui habilidades de checagem nativas
+
+----------refs e dom ----------
+
+é possivel cacessar a arvore do dom 
+quando utilizar 
+manipulação de lib de terceiros
+gerenciamento de inputs,seleção de textos ou reprodução de midias
+animações imperativas

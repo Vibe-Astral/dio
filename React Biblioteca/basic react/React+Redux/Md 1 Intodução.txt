@@ -1,0 +1,64 @@
+----------------------------------
+Conceitos e influências do Redux e React
+
+React: bliblioteca para construi interfaces, baseado em componentes 
+
+Redux: state container para app Js
+
+state container;
+são blocos da aplicaçao que armazenam estado de modo centralizado
+
+previsivel
+centralizado
+debugavel
+flexivel
+
+inspirado no flux e elm
+
+influencia da linguagem elm 
+imutabilidade 
+api declarativa
+operações deterministicas
+controlar side-effects                                
+influencia da arquitetura flux
+
+renders     View 
+    /	 >	   | dispaly
+   V	/	   V
+Controller   ->   Mode                                                            manipular
+_________________________________
+|				 |
+V
+view -> action -> dispatcher -> Store(s)                                                                                         
+
+actions -> reducer -> store
+A			 |
+|			 |
+|__________View<-________| 
+
+
+acessando o reducer:store.getState()
+store:createStore()
+reducer:store.getState()
+actions:store.dispatch()
+
+view:connect(react-redux)                      ----------------------------------                     
+O que são middlewares e enhanced 
+stores                                 
+Middleware é um software que fornece serviços e recursos comuns a aplicações. Gerenciamento de dados, serviços de aplicações, sistema de mensageria, autenticação e gerenciamento de APIs são recursos comumente operados por um software de middleware.
+
+Com o middleware, os desenvolvedores podem criar aplicações com mais facilidade e eficiência, pois esse tipo de software tem o papel de conectar aplicações, dados e usuários.
+
+----------------------------------                     
+Visão geral de um projeto react com redux
+
+npx create-react-app app- --template redux
+
+
+
+
+
+
+
+
+                                                                                                                                                                             

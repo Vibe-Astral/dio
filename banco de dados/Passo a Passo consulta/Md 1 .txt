@@ -1,0 +1,10 @@
+-----Clausula JOIN-----
+
+INNER JOIN 
+
+OUTTER JOIN
+
+LEFT RIGTH
+
+
+UNION:permite unir consultas diferentes
