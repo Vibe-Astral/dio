@@ -16,3 +16,22 @@ validação de schema
 cookies
 loggin
 tratamento de erros
+monitoramento de porcessos(Good lib)
+------------------------------
+Hapi Vs Express
+
+Express:
+Um pouco menos opinativo que o hapi, sendo mesnos abstraido do node
+parece uma aplicação nativa
+Usa middlewares para fornecer acesso ao pipeline de solicitação resposta
+
+Hapi:
+estrutura padrão 
+implementação mais abstrata do node 
+usa plugins para extender as funcionalidades
+
+------------------------------
+Desenvolvimento hapi 
+
+
+

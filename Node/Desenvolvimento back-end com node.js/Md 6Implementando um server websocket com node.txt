@@ -1,0 +1,52 @@
+---------------------------
+antes do Websocket
+
+requisições http tradicionais 
+
+via unica cliente e servidor 
+
+http request--->http response
+
+------------------------------requisições AJAX(XMLHttpRequest/ fetch)
+
+conexoes de forma bidirecional
+------------------------------
+pooling: o cliente faz requisições de dados regular 
+
+short pooling:Requisições ajax feitas em intervalos de tempos fixos
+
+long pooling: se pprende por grande tempo
+------------------------------
+o que é um WebSocket
+
+uma aplicação tcp que ecuta uma porta de um servidor que segue um protocolo especifico
+
+estabelece uma conexão como o navegador e se comunica diretamente com ele
+
+defini um canal de comunicação full-duplex atraves de um unico socket atravez da web
+comunicação estabelecida uma unica vez
+
+------------------------------
+Socket.io
+
+oferece uma api simples baseada em eventos
+
+permite comunicação entre servidor e cliente
+
+foi desenvolvido em js e funciona no front ou  back end
+
+o mescanismo padrão é o websocket com fallbacks em flash e ajax
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+------------------------------
+
+Desenvolvendo ferramentas de linha de comando em node.js
+
+o que é uma cli: ferramenta que disponibiliza interface de linha de comando para executar tarefas no terminal 
+
+criados atravez do shell script
+automatiza uma tarefa através de um arquivo executavel 
+
+facilmente distribuido em varias plataformas 
+------------------------------
+gui:
+copiando 
+
+abrir gerenciador
+navega no diretorio
+seleciona os arquivos .js
+copiar arquivos
+troca de diretorios
+cola os arquivos  
+------------------------------
+cli: 
+cp * ,js ~/diretorio
+------------------------------
+
+popularidade do node se da ao rico ecossistema de pacotes 
+
+mais de 900.000 pacotes registrados no npm
+
+clis podem facilmente ser distribuidas
+
+explorar o ecossistema:
+
+npm,yarn,babel,gulp,webpack
+------------------------------
+criando uma cli simples;
+
+
+------------------------------
+commander.js
+
+ferrramenta para criar clis em node 
+
+definição de comando 
+
+parametros de opções e execuções de ações 
+
+descrição para cada comando e menu de ajuda como exemplos de uso 

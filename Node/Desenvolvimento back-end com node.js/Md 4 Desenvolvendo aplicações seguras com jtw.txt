@@ -1,0 +1,54 @@
+------------------------------
+JWT JASON Web Token
+
+é um padrão que defini como transmitir e armazenar objetos JSON de forma compact e segura entre diferentes aplicações
+os dados pode ser validados em qualquer momento pois o token é asssinado digitalmente
+
+formado por três seções: header,payload e signatura
+
+HEader: objeto JSON que defini as informações sobre o tipo do token 
+algoritimo de criptografia 
+{
+"alg": "HS256"
+"typ": "JTW"
+}
+
+Payload
+
+objeto jason com as claims (informações) da entidade 
+tratada usuario autenticado
+
+3 tipos 
+reserved claims:
+Atributos não obrigatorios(mas recomendados)
+
+sub(subject)entidade á quem o token pertence(ex id do user)
+
+iss(issuer)Emissor do token
+
+exp(expiration) timestamp de expiração do token
+
+iat(issued at)timestamp de Criação do token
+
+aud(audience)destinatario do token
+
+
+public claims:Atributos usados pelas aplicações(ex.:User autenticado)
+
+nome
+roles
+permissions
+
+private claims:compartilhar informações entre aplicações
+
+{
+"sub": "1234567890"
+"name": "John Doe"
+"admim": "true"
+}
+
+signatute a concatenação dos hashes gerados a partir do payload e header usando base64URlencode, com uma chave secreta ou certificado RSA
+
+garante a ibntegridade do token se ele foi modificado e se realmente foi gerado por você 
+
+previne ataques do tipo man-in-the-middle

@@ -1,0 +1,42 @@
+------------------------------
+introdução ao node.js com express
+
+Origem do node.js:
+
+criado em 2009 por Ryan Dahl
+
+combina a maquina virtual javascript v8 event loop e a libuv
+
+usa javascript como linguagem de programação 
+
+e guiado a eventos Event Driven
+
+V*+libuv = node.js
+------------------------------
+caracteristicas:
+
+é um ambiente de servidor de codigo aberto
+gratuito para uso
+varias plataformas 
+
+
+event loop
+
+assincronicidade
+
+processos de i/o não bloqueante
+
+alta performace: quando bem estruturada 
+------------------------------
+event loop: escutando eventos 
+------------------------------
+
+Expres:
+
+framework web
+
+fornece estrutura de recursos robustos para apps web e mobile
+
+dispoe de metodos http e middlewares
+
+("Aula linda demias muito esclarecedora")

@@ -1,0 +1,81 @@
+------------------------------
+O que é qualidade: não é facil definir 
+
+cada time/projeto define o que é qualidade e quais serão as boas praticas para cada projeto/demanda
+
+é importante definir a formula no começo do projeto 
+
+
+Legibilidade:
+
+Não entender o que determinado codigo esta fazendo, muitas vezes no faz criar algo que ja existe ou gera retrabalho 
+
+ter o minimo numero de linha possivel facilitando a leitura, mas se mais linhas ajudar a ser legivel entaõ fica melhor, separar por responsabilidade
+
+nomes devem ter funções expressivas
+
+manutenibilidade:
+
+estabilidade
+flexibilidade
+Usuabilidade
+
+pricipios da engenharia de software:
+
+guia para criar codigos legiveis reutilizaveis e refatoraveis
+
+criterio para se avaliar a qualidade de software
+------------------------------
+Ferramentas de lint 
+
+checagem automatica para previnir ou solucionar erros enquantos escrevemos codigos
+
+checagem de codigo estatico
+erros programaticos 
+erros de estilo
+------------------------------
+Desenvolvimento guiado por teste 
+
+visa feedback rapido e validação do comportamento da aplicação
+
+testes se tornam consequencia do processo pois determina o comportamento esperado pela implementação 
+
+tdd
+Livro:Construindo apis testaveis com node.js
+------------------------------
+ciclos do TDD
+
+Red: teste criado antes da fincionalidade ser implementada
+
+o teste deve quebrar 
+
+verfica-se erros de sintaxe e semantica
+
+
+green: funcionalidade adicionada para que o teste passe
+logica ainda não é necessaria, apenas que atenda os requisitos do teste 
+
+podem ser adicionados tos e fixes
+
+refactor: logica necessaria é adicionada ao codigo
+------------------------------
+tipos de testes
+
+unit tests:
+
+são de baixo nivel, com foco em pequenas partes de software
+
+tendem a ser mais rapidamentes executados quando comparados com outros testes pois testam partes isoladas
+------------------------------
+Integração: verifica se a comunicação do sistema esta ocorrendo conforme o esperado
+
+testa o comportamento entre as interações
+
+testes em qualquer nivel
+
+------------------------------
+integração de contrato
+
+ganham força devido ao crescimento das apis e micro serviços 
+
+garantes que os dados consumido continuem compativeis e funcionando   

@@ -1,0 +1,9 @@
+------------------------------
+o que é o pug: template engine de alta performace
+
+implementado em js pa node e browser
+
+conhecido como jade
+
+pode ser integrado com express;
+
